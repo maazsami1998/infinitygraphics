@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  color: #222;
+  background-color: rgb(246, 248, 249);
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 16px;
+  transition: .5s all ease;
+}
+.nav-link:hover{
+  background-color: gray;
+  border-radius: 10px; 
+}
+
+.active{
+  background-color: gray;
+  border-radius: 10px;
+}
+.btn-primary{
+  background-color: #FDC542;
+  border: 1px #563d7c;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+}
+.jumbotron{
+  padding-right: 1rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+  width: 95%;
+}
+
+.intro{
+  background-color: rgb(34, 34, 34);
+}
+.social{
+  text-align: center;
+  margin-top: 12px; 
+}
+.btns{
+  margin-top: 5px;
+  text-align: center;
+}
+.uk{
+  background-color: #CCC;
+  color: #000;
+}
+
+.social a{
+  padding: 5px;
+  font-size: 16px;
+}
+.fa-facebook{
+  color: white;
+}
+.fa-envelope{
+  color: white;
+}
+.fa-phone{
+  color: white;
+}
+.fa-whatsapp{
+  color: white;
+}
+.mill p{
+  color: #FFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slider{
+  text-align: center;
+}
+.slider img{
+ 
+  width: 1110px;
+  height: 470px;
+  
+}
+.mq{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:  black;
+  width: 100%;
+  color: #FFF;
+}
+.two{
+  margin-top: 20px;
+  text-align: center;
+}
+.two h2{
+  color: #861538;
+  font-weight: 700;
+}
+.two span{
+  color: #FDC542;
+}
+.space{
+  font-weight: 700;
+  color: #FDC542;
+}
+.para{
+  margin-bottom: 5rem;
+}
+.counter{
+  background-color: rgb(85, 96, 110);
+  text-align: center;
+  color: #FFF;
+  padding: 35px ;
+}
+
+.counteritems h1{
+  font-weight: 700;
+}
+.fixwidth{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* .card{
+  text-align: center;
+}
+.card h3{
+  color: blue;
+}
+.card img{
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 10%;
+  left: 45%;
+} */
+.white{
+  background-color: #FFF;
+  margin-top: 7rem;
+}
+/* .white h2{
+  color: gray;
+  font-weight: 700;
+  padding-top: 7rem;
+}
+.event marquee{
+  width: 70%;
+  height: 40%;
+}
+.padtop{
+  margin-bottom: 7rem;
+  text-align: center;
+} */
+h4{
+  color: #FFF;
+}
+.bl{
+  background-color: rgb(33, 33, 34);
+  text-align: center;
+}
+.bl p{
+  margin-top: 20px;
+  color: white;
+}
+
+
+footer{
+  background-color: #ffffff;
+  color: #444343;
+  padding-top: 2rem;
+}
+.border{
+  border: 2px solid green;
+  background-color: green;
+  width: 10%;
+  height: 3px; 
+  margin-bottom: 3rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+.services{
+  padding-top: 50px;
+  text-align: center;
+  color: #555353;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  ;
+  
+}
+.services span{
+  color: black;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-deck{
+  padding: 10px;
+}
+.card{
+  background-color: lightgray;
+}
+.carousel {
+  background: black;
+}
+.carousel .carousel-item {
+  width: 1110px;
+  height: 470px;
+ 
+}
+.card-img-top{
+  align-self: center;
+  width: 130px;
+  padding-top: 23px;
+}
+.support{
+  background-color: white;
+
+}
+.support img{
+  width: 990px;
+  height: 659px;
+}
+.how{
+  padding-top: 50px;
+  text-align: center;
+  color: #555353;
+}
+.how span{
+  color: black;
+}
+.email{
+  background-color: rgb(85, 96, 110);
+  color: rgb(252, 252, 253);
+ font-weight: 700 ;
+  padding: 30px;
+  
+}
+.email p{
+  font-size: 20px;
+  
+  
+}
+
+.end{
+  background-color: rgb(251, 253, 255);
+  color: rgb(85, 96, 110);
+  padding-top: 19px;
+  padding-left: 19px;
+  padding-right: 0;
+  padding-bottom: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.end h1{
+  font-size: 16px;
+}
+.end p{
+  font-size: 15px;
+}
